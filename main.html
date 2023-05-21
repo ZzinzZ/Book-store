@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-------------------->
+    <div id="header">
+        <div class="search-account">
+            <div class="search">
+                <form action="#" class="search-form">
+                    <img src="./icon/search_icon.png" alt="search-icon" class="search-icon" width="15" height="15">
+                    <input type="text" id="search-input">
+                </form>
+            </div>
+            <div class="header-right">
+                <div id="Notifi">
+                    <img src="./icon/Notification.png" alt="Notification"  width="20" height="20">
+                </div>
+                <div id="account">
+                    <img src="./icon/user_icon.png" alt="user" width="20" height="20">
+                    <p>Login</p>
+                </div>
+            </div>
+        </div>  
+        <div class="logo-category">
+            <div class="logo">
+                <img src="./icon/logo.png" alt="Logo" width="60" height="60">
+            </div>
+            <div class="category">
+                <div class="category-option">
+                    <div class="tabs">
+                        <input type="radio" id="radio-1" name="tabs" checked="">
+                        <label class="tab-category" for="radio-1" id="category1">All</label>
+                        <input type="radio" id="radio-2" name="tabs">
+                        <label class="tab-category" for="radio-2" id="category2">Literature</label>
+                        <input type="radio" id="radio-3" name="tabs">
+                        <label class="tab-category" for="radio-3" id="category3">Business</label>
+                        <input type="radio" id="radio-4" name="tabs">
+                        <label class="tab-category" for="radio-4" id="category4">Psychology</label>
+                        <input type="radio" id="radio-5" name="tabs">
+                        <label class="tab-category" for="radio-5" id="category5">Education</label>
+                        <input type="radio" id="radio-6" name="tabs">
+                        <label class="tab-category" for="radio-6" id="category6">Astrology</label>
+                        <input type="radio" id="radio-7" name="tabs">
+                        <label class="tab-category" for="radio-7" id="category7">Science</label>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-------------------->
+    <div id="content">
+        <div class="menu-button-container">
+            <img src="./icon/menu.png" alt="" width="27" height="27" class="menu-button">
+          </div>
+        <div class="menu-container" id="menu-container">
+           <div class="menu-option">
+                <input type="radio" id="option1" name="option" checked="">
+                <label class="tab-op" for="option1" id="label1">Home</label>
+                <input type="radio" id="option2" name="option">
+                <label class="tab-op" for="option2" id="label2">Notification</label>
+                <!-- <input type="radio" id="option3" name="option">
+                <label class="tab-op" for="option3" id="label3">My like</label> -->
+                <input type="radio" id="option4" name="option" >
+                <label class="tab-op" for="option4" id="label4">Voucher</label>
+                <!-- <input type="radio" id="option5" name="option">
+                <label class="tab-op" for="option5" id="label5">Shopping cart</label> -->
+                <input type="radio" id="option6" name="option">
+                <label class="tab-op" for="option6" id="label6">Account</label>
+                <input type="radio" id="option7" name="option">
+                <label class="tab-op" for="option7" id="label7">Setting</label>
+                <div class="line"><hr></div>
+                <button class="logout">Logout</button>
+           </div>
+        </div>
+        <div class="content-container">
+            <div class="slider-and-picture">
+            <div class="slider-container">
+                <div class="slides">
+                    <!-- radio button start -->
+                    <input type="radio" name="radio-btn" id="radio1" checked>
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!-- slider image -->
+                    <div class="slide first">
+                        <img src="./image/7.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./image/13.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./image/12.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./image/11.jpg" alt="">
+                    </div>
+                    <!-- auto navigation start -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <!-- manual navigation start -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                
+            </div>
+            <div class="right-picture-container">
+                <div class="right-picture"><img src="./image/8.png" alt="sale"c class="pic1"></div>
+                <div class="right-picture"><img src="./image/9.png" alt="sale" class="pic2"></div>
+            </div>
+            </div>
+           
+            <div class="wraper">
+                <ul class="products">
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products-item">
+                            <div class="product-top">
+                                <a href="#" class="product-thumb">
+                                    <img src="./image/bia-mau.jpg" alt="">
+                                </a>
+                                 <a href="" class="buy-now">buy now</a>
+                            </div>
+                            <div class="product-info">
+                                <a href="" class="product-tag">Literature</a>
+                                <a href="" class="product-name">Ông già và biển cả</a>
+                                <div class="product-price">$999</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="change-page">
+                <a href="" class="next-page">Next page</a>
+                <i class="fas fa-arrow-right next-arow"></i>
+            </div>
+        </div>
+    </div>
+    <!-------------------->
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>REGISTER</h1>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="password" name="" id="" placeholder="Password">
+                <input type="password" name="" id="" placeholder="Confirm password">
+                <button id="done">Done</button>
+                <span class="span-register">or use your account</span>
+                <div class="social-container">
+                    <a href="#" class="social"><img src="./icon/facebook_icon.png" alt="" width="32" height="32"></i></a>
+                    <a href="#" class="social"><img src="./icon/google_icon.png" alt="" width="32" height="32"></a>
+                </div>
+            </form>
+        </div>
+        <div class="form-container login-container">
+            <form action="#">
+                <h1 class="Login-title">LOGIN</h1>
+                <select name="decentralization" id="select">
+                    <option value="User">User</option>
+                    <option value="Staff">Staff</option>
+                    <option value="Admin">Admin</option>
+                </select>
+                <input type="text" placeholder="User">
+                <input type="password" name="" id="" placeholder="Password">
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="check" id="remember">
+                        <label for="check">Remember me</label>
+                    </div>
+                    <div class="forgotpass">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                <button>Login</button>
+                <span style="margin-top: 50px;">or use your account</span>
+                <div class="social-container">
+                    <a href="#" class="social"><img src="./icon/facebook_icon.png" alt="" width="32" height="32"></i></a>
+                    <a href="#" class="social"><img src="./icon/google_icon.png" alt="" width="32" height="32"></a>
+                </div>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Hello friend</h1>
+                    <p class="p1">If you have an account, login here and have fun</p>
+                    <button class="ghost" id="login-nav"><i class="fas fa-arrow-left login"></i>Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Start your <br> journey now</h1>
+                    <p>If you don't have an account yet, join us and start your journey</p>
+                    <button class="ghost" id="register-nav">Register<i class="fas fa-arrow-right register"></i></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
